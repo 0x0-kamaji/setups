@@ -30,8 +30,8 @@ else
     echo 'ZSH_THEME="powerlevel10k/powerlevel10k"' >> "$ZSHRC"
 fi
 
-# Configurar perfil de Konsole con esquema de colores "Dark Pastels"
-echo "[*] Configurando Konsole con esquema de colores 'Dark Pastels'..."
+# Configurar perfil de Konsole con esquema de colores "Breeze"
+echo "[*] Configurando Konsole con esquema de colores 'Breeze'..."
 KONSOLE_DIR="$HOME/.local/share/konsole"
 mkdir -p "$KONSOLE_DIR"
 
@@ -40,7 +40,7 @@ PROFILE_FILE="$KONSOLE_DIR/${PROFILE_NAME}.profile"
 
 cat > "$PROFILE_FILE" <<EOF
 [Appearance]
-ColorScheme=DarkPastels
+ColorScheme=Breeze
 
 [General]
 Name=Powerlevel10k
